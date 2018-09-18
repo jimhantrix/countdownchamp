@@ -1,7 +1,19 @@
 import React, { Component } from 'react';
+import './App.css';
 
 
 class App extends Component {
+	 
+	 constructor(props) {
+
+	 	super(props);
+	 	this.state = {
+
+	 	deadline: 'December 25, 2018'
+
+	 	}
+
+	 }
 	
 	render() {
 
@@ -9,7 +21,7 @@ class App extends Component {
 			<div className="App">
 
 			
-<div className='App-title'> Count down to December 25, 2018 </div>
+<div className='App-title'> Count down to {this.state.deadline}</div>
 
 				<div>
 					<div className="Clock-days"> 14 Days </div>
