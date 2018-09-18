@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 import './App.css';
 
 class Clock extends Component {
@@ -14,9 +15,7 @@ class Clock extends Component {
 		days: 0,
 		hours: 0,
 		minutes: 0,
-		seconds: 
-
-
+		seconds: 0
 
 	  }
 	}
@@ -25,16 +24,16 @@ class Clock extends Component {
 	
 	render() {
 
-	<div> 
-		<div className="Clock-days">{this.state.days} 14 Days </div>
-		<div className="Clock-hours">{this.state.hours} 30 hours</div>
-		<div className="Clock-minutes">{this.state.minutes} 15 minutes</div>
-		<div className="Clock-seconds">{this.state.seconds}20 seconds</div>
-	</div>
+		return(
 
-
+			<div> 
+				<div className="Clock-days">{this.state.days} days </div>
+				<div className="Clock-hours">{this.state.hours} hours</div>
+				<div className="Clock-minutes">{this.state.minutes} minutes</div>
+				<div className="Clock-seconds">{this.state.seconds} seconds</div>
+			</div>
+		)
 	}
-
 }
 
 export default Clock; 
