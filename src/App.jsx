@@ -8,7 +8,7 @@ class App extends Component {
 	return(
 
 			<div>
-				<div> CountDdown to December 25, 2017 </div>
+				<div> CountDdown to December 25, 2018 </div>
 
 				<div>
 					<div> 14 Days </div>
