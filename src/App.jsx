@@ -6,10 +6,10 @@ class App extends Component {
 	render() {
 
 	return(
-			<div className='App'>
+			<div className="App">
 
 			
-				<div className='App-title'> Count down to December 25, 2018 </div>
+<div className='App-title'> Count down to December 25, 2018 </div>
 
 				<div>
 					<div className="Clock-days"> 14 Days </div>
